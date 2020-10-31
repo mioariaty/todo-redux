@@ -1,0 +1,29 @@
+.todoList {
+  list-style: none;
+  padding: 0;
+}
+.todoWrapper {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+form {
+  display: flex;
+  margin-bottom: 2rem;
+
+  input {
+    width: 100%;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: 0.2s all ease;
+  }
+
+  button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+  }
+}

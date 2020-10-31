@@ -1,0 +1,25 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f4f4f4;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+button {
+  display: inline-block;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: 0.2s all ease;
+}
+
+.delete {
+  color: #f16f6f;
+  background-color: rgba(241, 111, 111, 0.2);
+}
